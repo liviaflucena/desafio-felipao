@@ -1,5 +1,4 @@
 function calcularRankeadas(vitorias, derrotas) {
-    
     const saldoVitorias = vitorias - derrotas;
     let nivel;
 
@@ -26,5 +25,3 @@ const vitorias = 25;
 const derrotas = 10;
 const resultado = calcularRankeadas(vitorias, derrotas);
 console.log(resultado);
-
-
